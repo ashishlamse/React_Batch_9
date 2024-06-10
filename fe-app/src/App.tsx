@@ -1,18 +1,12 @@
 import React from "react";
-import UseEffectExa from "./compoments/UseEffectExa";
-import UseEffectCleanUp from "./compoments/UseEffectCleanUp";
-import ParrentComponent from "./compoments/propsExample/ParrentComponent";
-import Parent from "./compoments/PropsDrilling/Parent";
-import ContextParrentComponent from "./compoments/ContextExample/ContextParrentComponent";
+import CutomHook1 from "./compoments/cutomHook1";
+import CutomHook2 from "./compoments/cutomHook2";
 
 function App() {
   return (
     <div>
-      {/* <Parent /> */}
-      <ContextParrentComponent />
-      {/* <ParrentComponent /> */}
-      {/* <UseEffectExa /> */}
-      {/* <UseEffectCleanUp /> */}
+      <CutomHook1 />
+      <CutomHook2 />
     </div>
   );
 }
